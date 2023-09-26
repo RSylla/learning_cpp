@@ -14,7 +14,7 @@ bool RG::Homework1::assignment1()
     int i1;
 
     // Loo muutuja i2 mis on int tüüpi ja vaikiva väärtusega
-    int i2{ 0 };
+    int i2{};
 
     // Loo muutuja i3 mis on long long tüüpi ja väärtusega 5ll
     long long i3{ 5ll };

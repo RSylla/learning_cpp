@@ -19,7 +19,7 @@ bool RG::Homework1::assignment2()
     i1 = 4;
 
     // Muuda muutuja i2 väärtus ++i2-ks
-    i2 = i2++;
+    i2 = ++i2;
 
     // Muuda muutuja d väärtus d + 0.7l-ks
     d = d + 0.7l;
