@@ -14,28 +14,28 @@ bool RG::Homework1::assignment1()
     int i1;
 
     // Loo muutuja i2 mis on int tüüpi ja vaikiva väärtusega
-    int i2 = 0;
+    int i2{};
 
     // Loo muutuja i3 mis on long long tüüpi ja väärtusega 5ll
-    long long i3 = 5ll;
+    long long i3{ 5ll };
 
     // Loo muutuja b mis on bool tüüpi ja väärtusega true
-    bool b = true;
+    bool b{ true };
 
     // Loo muutuja c mis on UTF-8 char8_t tüüpi ja väärtusega u8'a'
-    char8_t c = u8'a';
+    char8_t c{ u8'a' };
 
     // Loo muutuja d mis on long double tüüpi ja väärtusega 5.5l
-    long double d = 5.5L;
+    long double d{ 5.5L };
     
     // Loo muutuja s mis on UTF-8 string tüüpi ja väärtusega u8"Hello World!"s
-    std::string s = u8"Hello World!"s;
+    std::u8string s{ u8"Hello World!"s };
 
     // Loo muutuja v mis on vector tüüpi ja väärtusega {1, 2, 3, 4, 5}
-    std::vector<int> v = { 1, 2, 3, 4, 5 };
+    std::vector<int> v{ 1, 2, 3, 4, 5 };
 
     // Loo muutuja a mis on array tüüpi ja väärtusega {1, 2, 3, 4, 5}
-    std::array<int, 5> a = { 1, 2, 3, 4, 5 };
+    std::array<int, 5> a{ 1, 2, 3, 4, 5 };
 
     // Kontroll, et muutujad on õiget tüüpi ja väärtusega
     return (typeid(i1) == typeid(int))
