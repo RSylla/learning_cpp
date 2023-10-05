@@ -104,5 +104,6 @@ bool RG::Homework2::assignment3()
     && (a4 == 9)
     && (typeid(&cube) == typeid(int(*)(int)))
     && (a5 == 27);
+    //New information
 }
 
